@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="gif">
+        <img src="rats.gif" />
+    </div>
+    <div id="nameContainer">
+        <input type="text" id="name" style="transform: translateY(-100%); opacity: 0;" />
+        <label for="name" id="nameLabel" style="transform: translateY(-100%); opacity: 0;">name</label>
+    </div>
+    <div id="credits">
+        <span>by <a href="https://songsing.github.io">me</a></span>
+        <span>original by <a href="https://itsyourbirthday.today">Nick & Zac</a></span>
+    </div>
+    <button id="splash">
+        press to play your birthday message
+    </button>
+    
+    <audio id="audio1" src="sound/ratsIntro.mp3" type="audio/mp3" preload></audio>
+    <audio id="audio2" class="muted" src="sound/ratsName.mp3" type="audio/mp3" preload></audio>
+    <audio id="audio3" src="sound/ratsCakeAndIcecream.mp3" type="audio/mp3" preload></audio>
+    <audio id="audio4" class="muted" src="sound/ratsName.mp3" type="audio/mp3" preload></audio>
+    <audio id="audio5" src="sound/ratsSuchAGoodBoy.mp3" type="audio/mp3" preload></audio>
+</body>
+</html>
